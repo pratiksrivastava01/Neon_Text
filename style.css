@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+  font-family: "Fredoka One", cursive;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25vmin;
+  --hue: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: hsl(var(--hue), 50%, 95%);
+  text-shadow: 0 0 15px hsl(var(--hue), 60%, 90%, 0.8),
+    0 0 20px hsl(var(--hue), 70%, 80%, 0.85),
+    0 0 40px hsl(var(--hue), 80%, 70%, 0.9),
+    0 0 60px hsl(var(--hue), 90%, 60%, 0.95),
+    0 0 80px hsl(var(--hue), 100%, 50%, 1);
+}
