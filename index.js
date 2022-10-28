@@ -28,6 +28,7 @@ const doRandom = () => {
 
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+// this
 if (!mediaQuery || !mediaQuery.matches) {
   colors.play();
   doRandom();
